@@ -1,4 +1,4 @@
-const chain = require('./../lib');
+const chain = require('./../dist');
 
 const options = {
   micro: './app.js',
