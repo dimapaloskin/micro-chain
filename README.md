@@ -1,4 +1,4 @@
-# micro-chain
+# micro-chain [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 Helps to build chains from your [micro](https://github.com/zeit/micro/) services.
 
