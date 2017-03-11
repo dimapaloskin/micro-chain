@@ -20,6 +20,7 @@
     "bluebird": "^3.5.0",
     "full-url": "^1.0.0",
     "get-port": "^2.1.0",
+    "ip": "^1.1.5",
     "media-typer": "^0.3.0",
     "micro": "latest",
     "raw-body": "^2.2.0"
@@ -29,7 +30,6 @@
     "ava": "^0.18.2",
     "babel-cli": "^6.23.0",
     "babel-plugin-transform-async-to-generator": "^6.22.0",
-    "ip": "^1.1.5",
     "request": "^2.81.0",
     "request-promise": "^4.1.1",
     "xo": "^0.17.1"
