@@ -36,7 +36,7 @@ npm install --save micro-chain
       mergeJson: true,
       allowedStatuses: [200, 201], // array of allowed statuses. 
                                    // request will rejected if target's response has not included status
-                                   // response will equal target's response
+                                   // rejected response will be equal target's response
       // will modify request data and return result if declared
       // receive Buffer
       transformRequestBody: body => {
