@@ -2,6 +2,17 @@
 
 Helps to build chains from your [micro](https://github.com/zeit/micro/) services.
 
+### Overview
+
+Module provides simple ability to build chains like:
+```
+first.api.your-domain.com
+  -> second.api.your-domain.com
+    -> third.api.your-domain.com
+      -> final.api.your-domain.com
+```
+
+
 ### Install
 ```bash
 npm install --save micro-chain
@@ -23,6 +34,9 @@ npm install --save micro-chain
      }, {
       target: 'storage.api.your-domain.com/s3/save',
       mergeJson: true,
+      allowedStatuses: [200, 201], // array of allowed statuses. 
+                                   // request will rejected if target's response has not included status
+                                   // response will equal target's response
       // will modify request data and return result if declared
       // receive Buffer
       transformRequestBody: body => {
