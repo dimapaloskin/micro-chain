@@ -12,6 +12,14 @@ first.api.your-domain.com
       -> final.api.your-domain.com
 ```
 
+### Example
+
+Clone this repo and run `npm start`
+
+Make POST request
+```bash
+curl http://localhost:3000/public -XPOST '{"what": "you want", "message": "ping"}'
+```
 
 ### Install
 ```bash
