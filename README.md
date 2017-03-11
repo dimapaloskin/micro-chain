@@ -37,7 +37,8 @@ npm install --save micro-chain
       allowedStatuses: [200, 201], // array of allowed statuses. 
                                    // request will rejected if target's response has not included status
                                    // rejected response will be equal target's response
-      // will modify request data and return result if declared
+
+      // transformRequestBody will modify request data and return result if declared
       // receive Buffer
       transformRequestBody: body => {
         if (!body || !body.length) return body;
@@ -45,7 +46,8 @@ npm install --save micro-chain
         delete body.secret;
         return body;
       },
-      // will modify response body if declared
+
+      // transformReponseBody will modify response body if declared
       // receive Buffer
       transformReponseBody: body => {
         if (!body || !body.length) return body;
