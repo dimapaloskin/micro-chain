@@ -1,0 +1,56 @@
+{
+  "name": "micro-chain",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "cd example && micro index.js",
+    "build": "babel lib -d dist",
+    "test": "xo && ava -v test/*.test.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bl": "^1.2.0",
+    "bluebird": "^3.5.0",
+    "full-url": "^1.0.0",
+    "get-port": "^2.1.0",
+    "media-typer": "^0.3.0",
+    "micro": "latest",
+    "raw-body": "^2.2.0"
+  },
+  "devDependencies": {
+    "async-sleep": "^0.1.0",
+    "ava": "^0.18.2",
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "ip": "^1.1.5",
+    "request-promise": "^4.1.1",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "object-curly-spacing": [
+        0
+      ],
+      "import/no-dynamic-require": [
+        0
+      ],
+      "unicorn/no-process-exit": [
+        0
+      ],
+      "max-depth": [
+        0
+      ],
+      "no-use-extend-native/no-use-extend-native": [
+        0
+      ]
+    }
+  }
+}
