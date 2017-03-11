@@ -2,6 +2,11 @@
 
 Helps to build chains from your [micro](https://github.com/zeit/micro/) services.
 
+### Install
+```bash
+npm install --save micro-chain
+```
+
 ### Example
 
 **index.js**
