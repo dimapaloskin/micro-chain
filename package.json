@@ -38,6 +38,14 @@
     "type": "git",
     "url": "https://github.com/dimapaloskin/micro-chain"
   },
+  "keywords": [
+    "micro",
+    "microservice",
+    "microservices",
+    "API",
+    "chain",
+    "service"
+  ],
   "xo": {
     "space": true,
     "rules": {
