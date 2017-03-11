@@ -17,11 +17,15 @@ exports.createSimple = fn => {
   });
 };
 
-exports.createChain = async config => {
-  const chained = chain(config);
-  const server = micro(chained);
-  const listen = Promise.promisify(server.listen, { context: server });
-  const p = await getPort();
-  await listen(p);
-  return p;
+exports.createChain = config => {
+  return new Promise((resolve, reject) => {
+    const chained = chain(config);
+    const server = micro(chained);
+    const listen = Promise.promisify(server.listen, { context: server });
+    getPort().then(p => {
+      listen(p)
+        .then(() => resolve(p))
+        .catch(reject);
+    }).catch(reject);
+  });
 };
