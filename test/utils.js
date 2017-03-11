@@ -1,7 +1,7 @@
 const Promise = require('bluebird');
 const micro = require('micro');
 const getPort = require('get-port');
-const chain = require('./../lib');
+const chain = require('./../dist');
 
 exports.createSimple = fn => {
   return new Promise((resolve, reject) => {
