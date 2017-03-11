@@ -73,7 +73,7 @@ Run:
 micro index.js
 ```
 
-#### See in action
+### See in action
 
 Clone this repo and run `npm start`
 
