@@ -79,7 +79,7 @@ Clone this repo and run `npm start`
 
 Make POST request
 ```bash
-curl http://localhost:3000/public -XPOST '{"what": "you want", "message": "ping"}'
+curl http://localhost:3000/public -XPOST -d '{"what": "you want", "message": "ping"}'
 ```
 
 
