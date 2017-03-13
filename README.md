@@ -75,7 +75,19 @@ micro index.js
 
 ### See in action
 
-Clone this repo and run `npm start`
+Clone this repo
+
+Install dependencies
+```bash
+npm install
+```
+
+Build project
+```bash
+npm run build
+```
+
+Run `npm start`
 
 Make POST request
 ```bash
