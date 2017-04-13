@@ -1,8 +1,10 @@
-# micro-chain [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![Build Status](https://travis-ci.org/dimapaloskin/micro-chain.svg?branch=master)](https://travis-ci.org/dimapaloskin/micro-chain)
+# micro-chain 
 
+> Helps to build chains from your [micro](https://github.com/zeit/micro/) services.
+
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![Build Status](https://travis-ci.org/dimapaloskin/micro-chain.svg?branch=master)](https://travis-ci.org/dimapaloskin/micro-chain)
 [![Greenkeeper badge](https://badges.greenkeeper.io/dimapaloskin/micro-chain.svg)](https://greenkeeper.io/)
-
-Helps to build chains from your [micro](https://github.com/zeit/micro/) services.
 
 ### Overview
 
