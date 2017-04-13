@@ -1,6 +1,6 @@
 {
   "name": "micro-chain",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,14 @@
     "dist",
     "README.md"
   ],
-  "keywords": [],
+  "keywords": [
+    "micro",
+    "microservice",
+    "microservices",
+    "API",
+    "chain",
+    "service"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -38,14 +45,6 @@
     "type": "git",
     "url": "https://github.com/dimapaloskin/micro-chain"
   },
-  "keywords": [
-    "micro",
-    "microservice",
-    "microservices",
-    "API",
-    "chain",
-    "service"
-  ],
   "xo": {
     "space": true,
     "rules": {
