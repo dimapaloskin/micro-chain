@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "async-sleep": "^0.1.0",
-    "ava": "^0.19.1",
+    "ava": "^0.20.0",
     "babel-cli": "^6.23.0",
     "babel-plugin-transform-async-to-generator": "^6.22.0",
     "request": "^2.81.0",
