@@ -30,7 +30,7 @@
     "ip": "^1.1.5",
     "media-typer": "^0.3.0",
     "micro": "latest",
-    "raw-body": "^2.2.0"
+    "raw-body": "^2.4.1"
   },
   "devDependencies": {
     "async-sleep": "^0.1.0",
