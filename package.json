@@ -23,7 +23,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bl": "^1.2.1",
+    "bl": "^4.0.0",
     "bluebird": "^3.5.0",
     "full-url": "^1.0.0",
     "get-port": "^3.1.0",
